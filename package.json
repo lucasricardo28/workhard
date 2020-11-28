@@ -1,0 +1,19 @@
+{
+  "name": "workhard",
+  "version": "1.0.0",
+  "description": "crossfit project ",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "author": "ricardo lucas",
+  "license": "MIT",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "config": "^3.3.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
