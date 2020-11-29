@@ -6,10 +6,8 @@ module.exports = {
         if (username != "ricardo.martins" || password != "123")
             return response.status(403).send()
 
-        data = [
-            'type' = "Bearer",
-            'token' = "aa" 
-        ];
+        var data = {"type" : "Bearer", "token" : "AA"}
+        
         return response.status(200).json();
     } 
 }
